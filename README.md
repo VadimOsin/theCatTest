@@ -1,4 +1,4 @@
-# The Cat Test
+# [The Cat Test](https://ornate-trifle-faf2ca.netlify.app/)
 
 Тестовое приложение на React + Next.js для отображения случайных изображений котов с использованием [The Cat API](https://thecatapi.com/).
 
@@ -22,7 +22,6 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone [URL вашего репозитория]
 cd the-cat-test
 ```
 
@@ -70,14 +69,3 @@ src/
 ## API
 
 В проекте используется The Cat API для получения случайных изображений котов. API ключ необходим для работы приложения и должен быть добавлен в файл `.env.local`.
-
-## Деплой
-
-Приложение готово к деплою на платформы:
-- Vercel
-- GitHub Pages
-- Netlify
-
-## Лицензия
-
-MIT
