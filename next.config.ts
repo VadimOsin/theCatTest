@@ -1,5 +1,6 @@
-/** @type {import('next').NextConfig} */
+import type { Configuration } from 'webpack';
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   compiler: {
@@ -14,10 +15,13 @@ const nextConfig = {
       },
     ],
   },
-  webpack: (config) => {
-    config.resolve.fallback = {
-      ...config.resolve.fallback,
-      "styled-components": require.resolve("styled-components"),
+  webpack: (config: Configuration) => {
+    config.resolve = {
+      ...config.resolve,
+      fallback: {
+        ...config.resolve?.fallback,
+        "styled-components": require.resolve("styled-components"),
+      },
     };
     return config;
   },
