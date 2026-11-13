@@ -1,4 +1,4 @@
-# [The Cat Test](https://ornate-trifle-faf2ca.netlify.app/)
+# [The Cat Test](https://cat-test-osin.netlify.app/)
 
 Тестовое приложение на React + Next.js для отображения случайных изображений котов с использованием [The Cat API](https://thecatapi.com/).
 
